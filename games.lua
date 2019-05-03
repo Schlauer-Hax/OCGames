@@ -1,7 +1,6 @@
-print(
-    "Hey, Welcome! Here you can play all games which are programmed by Hax. Have fun!")
-print("Which Game do you want to play?")
-print("1 - Number Guessing")
+print([[Hey, Welcome! Here you can play all games which are programmed by Hax. Have fun!
+Which Game do you want to play?
+1 - Number Guessing]])
 local game = io.read()
 if file_exists("games/" .. name) then require("games/" .. game) end
 
