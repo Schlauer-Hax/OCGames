@@ -12,5 +12,5 @@ print([[Hey, Welcome! Here you can play all games which are programmed by Hax. H
 Which Game do you want to play?
 1 - Number Guessing]])
 local game = io.read()
-if file_exists("/lib/games/" .. game .. ".lua") then require("/lib/games/" .. game .. ".lua") else print([[That game doesn't exist.]]) end
+if file_exists("/lib/games/" .. game .. ".lua") then require("games/" .. game .. ".lua") else print([[That game doesn't exist.]]) end
 
